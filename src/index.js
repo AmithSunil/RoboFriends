@@ -1,15 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Card from './components/card';
-import {robot_list} from './components/robots';
-import Cardlist from './components/cardlist';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { robot_list } from "./components/robots";
+import App from "./components/App";
 
 ReactDOM.render(
-
   <div>
-    <Cardlist robots={robot_list}/>
+    <App robots={robot_list} />
   </div>,
   document.getElementById("root")
-
-)
+);
