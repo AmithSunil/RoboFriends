@@ -2,6 +2,7 @@ import React from "react";
 import Cardlist from "./cardlist";
 import Searchbar from "./searchbar";
 import { useState } from "react";
+import Scroll from "./Scroll";
 
 const App = ({ robots }) => {
   const [robotarray, changeArray] = useState(robots);
@@ -18,7 +19,9 @@ const App = ({ robots }) => {
     <div>
       <h1>ROBOFRIENDS</h1>
       <Searchbar textChanged={textChanged} />
-      <Cardlist robots={robotarray} />
+      <Scroll>
+        <Cardlist robots={robotarray} />
+      </Scroll>
     </div>
   );
 };
