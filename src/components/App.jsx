@@ -17,7 +17,7 @@ const App = ({ robots }) => {
 
   return (
     <div>
-      <h1>ROBOFRIENDS</h1>
+      <h1 className="body-header" >ROBOFRIENDS</h1>
       <Searchbar textChanged={textChanged} />
       <Scroll>
         <Cardlist robots={robotarray} />

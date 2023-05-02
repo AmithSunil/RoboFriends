@@ -1,30 +1,42 @@
+@font-face {
+  font-family: 'Monoton';
+  src: local('Monoton'), url(Monoton-Regular.ttf) format('truetype');
+}
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left, rgb(104, 255, 137), rgb(100, 100, 255));
+}
+
+.body-header{
+  font-family: 'Monoton', cursive;
+  font-size: 60px;
+  padding: 0%;
+  margin: 10px;
+  color: rgb(44, 0, 148);
+  font-weight: lighter;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-.main-body{
+.main-body {
   display: flex;
   justify-content: center;
-  align-items:center ;
+  align-items: center;
   margin: 0;
-  
 }
 
-.root{
+.root {
   display: flex;
   justify-content: center;
-  align-items:center ;
+  align-items: center;
 }
- 

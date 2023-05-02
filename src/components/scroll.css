@@ -1,8 +1,9 @@
-.scroll{
-
-    height: 80vh;
-    border-width:11 px;
-    border-color: rgb(0, 0, 0);
-    border-radius: 6px;
-    overflow-y: scroll;
+.scroll {
+  width: 98vw;
+  height: 80vh;
+  overflow-y: scroll;
+  border: solid;
+  padding: 10px;
+  border-radius: 8px;
+  border-color: aquamarine;
 }
