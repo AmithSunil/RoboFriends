@@ -6,4 +6,6 @@
   padding: 10px;
   border-radius: 8px;
   border-color: aquamarine;
+  background: linear-gradient(to left, rgb(68, 165, 89), rgb(51, 51, 131));
+
 }
