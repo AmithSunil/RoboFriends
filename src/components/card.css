@@ -3,6 +3,7 @@ div{
     flex-direction: column;
     max-width: fit-content;
     max-height:fit-content;
+
     align-items: center;
 }
 
